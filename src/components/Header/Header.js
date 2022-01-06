@@ -1,6 +1,5 @@
 import React from 'react';
-import { BrowserRouter, NavLink, Route } from 'react-router-dom';
-import DogsView from '../../views/DogsList';
+import { NavLink } from 'react-router-dom';
 
 export default function Header() {
   return (
