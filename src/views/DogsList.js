@@ -5,21 +5,29 @@ import { fetchDogs } from '../services/Dogs';
 
 export default function DogsView() {
   const [dogs, setDogs] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     const fetchData = async () => {
       const data = await fetchDogs();
       setDogs(data);
+      setLoading(false);
     };
-    fetchData();
-  }, []);
+    if (loading) {
+      fetchData();
+    }
+  }, [loading]);
 
   return (
     <div className="dogList">
-      <p>dogs</p>
-      {dogs.map((dog) => (
-        <Link key={dog.id} to={`/${dog.id}`}><Dogs key={dog.id} {...dog}/></Link>
-      ))}
+      {loading && <h3>Loading doggies...</h3>}
+      {!loading && (
+        <div className="doggies">
+          {dogs.map((dog) => (
+            <Link key={dog.id} to={`/${dog.id}`}><Dogs key={dog.id} {...dog}/></Link>
+          ))}
+        </div>
+      )}
     </div>
   );
 

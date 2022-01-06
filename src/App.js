@@ -12,7 +12,9 @@ function App() {
     <div className="App">
       <h1>doggy adoption</h1>
       <BrowserRouter>
-        <NavLink to="/">back</NavLink>
+        <header>
+          <NavLink to="/">back to doggies</NavLink>
+        </header>
         <Switch>
           <Route exact path="/" component={DogsView} />
           <Route exact path="/:id" component={Dog} />

@@ -14,6 +14,7 @@ export default function Dog(props) {
     fetchData();
   }, [props.match.params.id]);
 
+
   return (
     <div>
       <DogDetail key={dog.id} {...dog} />
