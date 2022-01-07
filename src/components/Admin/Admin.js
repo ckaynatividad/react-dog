@@ -1,11 +1,11 @@
 import React from 'react';
 import { updateEnemy } from '../../services/Dogs';
+import './Admin.css';
 
 export default function AdminForm({ name, level, type, image, element, handleSubmit }) {
   return (
     <div className="form">
       <form>
-        <h2>Enter Cute Enemy Details</h2>
         <label>Name:</label>
         <input placeholder="Name" type="text" value={name} onChange={(e) => { updateEnemy('name', e.target.value); }} />
 
@@ -21,7 +21,8 @@ export default function AdminForm({ name, level, type, image, element, handleSub
         <label>Element</label>
         <input placeholder="Element" type="text" value={element} onChange={(e) => { updateEnemy('element', e.target.value); }} />
 
-        <button onClick={handleSubmit}>Submit</button>
+        <p><button onClick={handleSubmit}>Submit Enemy</button>
+        </p>
       </form>
             
     </div>

@@ -13,7 +13,7 @@ import DogsView from './views/DogsList';
 function App() {
   return (
     <div className="App">
-      <h1>doggy adoption</h1>
+      <h1>enemies from maplestory that i like</h1>
       <BrowserRouter>
         <Header />
         <Switch>

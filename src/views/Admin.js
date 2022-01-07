@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { useHistory, useParams } from 'react-router';
 import AdminForm from '../components/Admin/Admin';
 import { fetchDogId, updateEnemy, createEnemy } from '../services/Dogs';
+import './Admin.css';
 
 export default function AdminEdit() {
   const [dog, setDog] = useState({});
@@ -23,8 +24,7 @@ export default function AdminEdit() {
     setDog({ ...dog });
   };
   return (
-    <div>
-      <h2>Edit Cute Enemy</h2>
+    <div className="form2">
       <AdminForm {...dog} handleSubmit={handleSubmit} updateEnemy={updateEnemy}/>
 
     </div>

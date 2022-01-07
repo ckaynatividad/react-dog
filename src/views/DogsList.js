@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import Dogs from '../components/Dogs/Dogs';
 import { fetchDogs } from '../services/Dogs';
+import './DogsList.css';
 
 export default function DogsView() {
   const [dogs, setDogs] = useState([]);

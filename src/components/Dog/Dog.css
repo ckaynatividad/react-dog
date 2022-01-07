@@ -1,0 +1,12 @@
+.detail {
+  color: rgba(255, 255, 255, 0.884);
+}
+
+button {
+  margin-top: 100px;
+  width: 80px;
+  height: 20px;
+  font-size: 6.4pt;
+  font-style: italic;
+  background-color: rgba(0, 128, 128, 0.815);
+}

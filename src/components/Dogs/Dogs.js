@@ -3,9 +3,9 @@ import './Dogs.css';
 
 export default function Dogs({ name, image }) {
   return (
-    <div>
+    <div className="dogs">
       <img src={image} />
-      <p>{name}</p>
+      <p className="words">{name}</p>
     </div>
   );
 }
