@@ -8,6 +8,9 @@ export default function Header() {
       <NavLink exact to="/">
                 back to all doggies
       </NavLink>
+      <NavLink exact to="/:id/edit">
+          edit
+      </NavLink>
 
     </header>
 
