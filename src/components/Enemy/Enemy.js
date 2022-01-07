@@ -1,9 +1,8 @@
 import React from 'react';
-import { deleteEnemy } from '../../services/Dogs';
-import './Dog.css';
+import './Enemy.css';
 
-export default function DogDetail(props, handleDelete) {
-
+export default function EnemyDetail(props) {
+  
   return (
     <div className="detail">
       <h1>{props.name}</h1>
@@ -12,7 +11,7 @@ export default function DogDetail(props, handleDelete) {
       <p>type: {props.type}</p>
       <p>element: {props.element} </p>
 
-      <button onClick={handleDelete}>delete enemy</button>
+      <button onClick={props.handleDelete}>delete enemy</button>
     </div>
   );
 }

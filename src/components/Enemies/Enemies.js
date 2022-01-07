@@ -1,9 +1,9 @@
 import React from 'react';
-import './Dogs.css';
+import './Enemies.css';
 
-export default function Dogs({ name, image }) {
+export default function Enemies({ name, image }) {
   return (
-    <div className="dogs">
+    <div className="enemies">
       <img src={image} />
       <p className="words">{name}</p>
     </div>
