@@ -5,7 +5,6 @@ export default function DogDetail(props) {
     <div>
       <h1>{props.name}</h1>
       <img src={props.image} />
-      <p>{props.bio}</p>
     </div>
   );
 }
