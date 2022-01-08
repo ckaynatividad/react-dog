@@ -1,9 +1,12 @@
 import { useEffect, useState } from 'react';
+import { useHistory } from 'react-router';
 import EnemyDetail from '../components/Enemy/Enemy';
 import { deleteEnemy, fetchEnemyId } from '../services/Enemies';
 
 export default function Enemy(props) {
   const [enemy, setEnemy] = useState([]);
+  
+  const history = useHistory();
 
 
   useEffect(() => {
@@ -24,9 +27,10 @@ export default function Enemy(props) {
     }
   };
 
+
   return (
     <div>
-      <EnemyDetail key={enemy.id} {...enemy} handleDelete={handleDelete} />
+      <EnemyDetail key={enemy.id} {...enemy} handleDelete={handleDelete}/>
     </div>
   );
 }

@@ -8,7 +8,7 @@ export default function Header() {
       <NavLink exact to="/">
         <p className="linkies">home</p>
       </NavLink>
-      <NavLink exact to="/:id/edit">
+      <NavLink exact to="/admin">
         <p className="linkies">add enemy</p>
       </NavLink>
 

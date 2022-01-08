@@ -10,7 +10,7 @@ export async function fetchEnemyId(id) {
   return checkError(resp);
 }
 
-export async function updateEnemy(id, name, level, type, image, element) {
+export async function updateEnemy({ id, name, level, type, image, element }) {
   const resp = await client.from('enemies').update({ name, level, type, image, element }).eq('id', id);
   return checkError(resp);
 }
@@ -21,7 +21,6 @@ export async function createEnemy(enemy) {
 }
 
 export async function deleteEnemy(id) {
-
   const resp = await client.from('enemies').delete().match({ id });
   return checkError(resp);
 }
