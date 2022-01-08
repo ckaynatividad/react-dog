@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import Enemies from '../components/Enemies/Enemies';
-import { fetchEnemies } from '../services/Enemies';
+import Enemies from '../../components/Enemies/Enemies';
+import { fetchEnemies } from '../../services/Enemies';
 import './EnemiesList.css';
 
 export default function EnemiesView() {

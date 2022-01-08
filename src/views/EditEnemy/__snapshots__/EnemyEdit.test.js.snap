@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render enemy info in form 1`] = `
+<div>
+  <div
+    class="form"
+  >
+    <form>
+      <label>
+        name
+      </label>
+      <input
+        placeholder="name"
+        type="text"
+        value="ginseng jar"
+      />
+      <label>
+        level
+      </label>
+      <input
+        placeholder="level"
+        type="number"
+        value="139"
+      />
+      <label>
+        type
+      </label>
+      <input
+        placeholder="type"
+        type="text"
+        value="enchanted"
+      />
+      <label>
+        image
+      </label>
+      <input
+        placeholder="image url"
+        type="text"
+        value="https://static.wikia.nocookie.net/maplestory/images/a/a9/Mob_Ginseng_Jar.png"
+      />
+      <label>
+        element
+      </label>
+      <input
+        placeholder="element"
+        type="text"
+        value="neutral"
+      />
+      <p>
+        <button>
+          submit
+        </button>
+      </p>
+    </form>
+  </div>
+</div>
+`;

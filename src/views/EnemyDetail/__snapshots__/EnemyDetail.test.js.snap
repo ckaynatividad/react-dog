@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render enemy info 1`] = `
+<div>
+  <div>
+    <div
+      class="detail"
+    >
+      <h1>
+        ginseng jar
+      </h1>
+      <img
+        src="https://static.wikia.nocookie.net/maplestory/images/a/a9/Mob_Ginseng_Jar.png"
+      />
+      <p>
+        level: 
+        139
+      </p>
+      <p>
+        type: 
+        enchanted
+      </p>
+      <p>
+        element: 
+        neutral
+         
+      </p>
+      <a
+        href="/8/edit"
+      >
+        Edit
+      </a>
+      <button>
+        delete enemy
+      </button>
+    </div>
+  </div>
+</div>
+`;

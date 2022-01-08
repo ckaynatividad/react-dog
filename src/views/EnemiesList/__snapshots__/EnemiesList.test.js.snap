@@ -1,0 +1,110 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render home 1`] = `
+<div>
+  <div
+    class="enemyList"
+  >
+    <div
+      class="enemiez"
+    >
+      <a
+        href="/8"
+      >
+        <div
+          class="enemies"
+        >
+          <img
+            src="https://static.wikia.nocookie.net/maplestory/images/a/a9/Mob_Ginseng_Jar.png"
+          />
+          <p
+            class="words"
+          >
+            ginseng jar
+          </p>
+        </div>
+      </a>
+      <a
+        href="/3"
+      >
+        <div
+          class="enemies"
+        >
+          <img
+            src="https://static.wikia.nocookie.net/maplestory/images/3/3c/Mob_Horny_Mushroom.png"
+          />
+          <p
+            class="words"
+          >
+            horny mushroom
+          </p>
+        </div>
+      </a>
+      <a
+        href="/17"
+      >
+        <div
+          class="enemies"
+        >
+          <img
+            src="https://static.wikia.nocookie.net/maplestory/images/b/bf/Mob_Mossy_Mushroom.png"
+          />
+          <p
+            class="words"
+          >
+            mossy mushroom
+          </p>
+        </div>
+      </a>
+      <a
+        href="/6"
+      >
+        <div
+          class="enemies"
+        >
+          <img
+            src="https://static.wikia.nocookie.net/maplestory/images/3/32/Mob_Sign_Ghost.png"
+          />
+          <p
+            class="words"
+          >
+            sign ghost
+          </p>
+        </div>
+      </a>
+      <a
+        href="/14"
+      >
+        <div
+          class="enemies"
+        >
+          <img
+            src="https://static.wikia.nocookie.net/maplestory/images/4/44/Mob_Sleepy_Ghost.png"
+          />
+          <p
+            class="words"
+          >
+            sleepy ghost
+          </p>
+        </div>
+      </a>
+      <a
+        href="/2"
+      >
+        <div
+          class="enemies"
+        >
+          <img
+            src="https://static.wikia.nocookie.net/maplestory/images/2/2e/Mob_Zombie_Mushroom.png"
+          />
+          <p
+            class="words"
+          >
+            zombie mushroom
+          </p>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

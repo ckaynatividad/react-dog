@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useHistory } from 'react-router';
-import EnemyDetail from '../components/Enemy/Enemy';
-import { deleteEnemy, fetchEnemyId } from '../services/Enemies';
+import EnemyDetail from '../../components/Enemy/Enemy';
+import { deleteEnemy, fetchEnemyId } from '../../services/Enemies';
 
 export default function Enemy(props) {
   const [enemy, setEnemy] = useState([]);

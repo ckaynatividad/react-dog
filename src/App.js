@@ -4,8 +4,8 @@ import './App.css';
 
 import Header from './components/Header/Header';
 
-import Enemy from './views/EnemyDetail';
-import EnemiesView from './views/EnemiesList';
+import Enemy from './views/EnemyDetail/EnemyDetail';
+import EnemiesView from './views/EnemiesList/EnemiesList';
 import EnemyEdit from './views/EditEnemy/EnemyEdit';
 import AddEnemy from './views/AddEnemy/AddEnemy';
 
