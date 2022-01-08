@@ -1,0 +1,10 @@
+.enemiez {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width: 40%;
+  padding: 50px;
+  gap: 30px;
+  margin-left: 25%;
+}

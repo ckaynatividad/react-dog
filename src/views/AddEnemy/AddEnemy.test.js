@@ -1,9 +1,9 @@
 import { render, screen } from '@testing-library/react';
-import Dog from './DogDetail';
+import AddEnemy from './AddEnemy';
 
-test('dog details rendering', () => {
+test('add enemy form should; render', () => {
   const container = render(
-    <Dog match={{ params: { id: 1 } }} />
+    <AddEnemy />
   );
   expect(container).toMatchSnapshot();
 });

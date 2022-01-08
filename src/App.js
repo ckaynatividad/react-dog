@@ -1,22 +1,27 @@
 
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+
 import Header from './components/Header/Header';
 
-import Dog from './views/DogDetail';
-import DogsView from './views/DogsList';
+import Enemy from './views/EnemyDetail/EnemyDetail';
+import EnemiesView from './views/EnemiesList/EnemiesList';
+import EnemyEdit from './views/EditEnemy/EnemyEdit';
+import AddEnemy from './views/AddEnemy/AddEnemy';
 
 
 
 function App() {
   return (
     <div className="App">
-      <h1>doggy adoption</h1>
+      <h1>ʕ•ᴥ•ʔ </h1>
       <BrowserRouter>
         <Header />
         <Switch>
-          <Route exact path="/" component={DogsView} />
-          <Route exact path="/:id" component={Dog} />
+          <Route exact path="/" component={EnemiesView} />
+          <Route exact path="/admin" component={AddEnemy} />
+          <Route exact path="/:id/edit" component={EnemyEdit} />
+          <Route exact path="/:id" component={Enemy} />
         </Switch>
       </BrowserRouter>
     </div>
