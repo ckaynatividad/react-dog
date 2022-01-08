@@ -14,7 +14,7 @@ import AddEnemy from './views/AddEnemy/AddEnemy';
 function App() {
   return (
     <div className="App">
-      <h1>ʕ•ᴥ•ʔ</h1>
+      <h1>ʕ•ᴥ•ʔ </h1>
       <BrowserRouter>
         <Header />
         <Switch>
